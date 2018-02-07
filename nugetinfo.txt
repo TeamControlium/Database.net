@@ -1,0 +1,6 @@
+//
+// Edit .nuspec to set version
+//
+nuget pack Database.net.nuspec
+nuget setApiKey xxxx-xxx-xx-xx-xx-xxxxxx-xxxxx
+nuget push TeamControlium.Database.x.x.x.nupkg - Source https://api.nuget.org/v3/index.json
